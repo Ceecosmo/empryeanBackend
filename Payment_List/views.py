@@ -30,7 +30,7 @@ def verify_payment(request: HttpRequest, ref:str) -> HttpResponse:
 
     if verified:
         context ={'payment':payment}
-        messages.success(request, "Verification Successful")
+        messages.success(request, "Payment Successful")
         return render(request, 'payment/success.html', context) 
          
     else:
