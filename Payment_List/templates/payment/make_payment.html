@@ -1,4 +1,4 @@
-{% extends './base.html' %}
+ul{% extends './base.html' %}
 
 
 
@@ -7,10 +7,10 @@
 
 <div class="container  pt-5">
     <div class="text-center">
-        <h2 class="display-6" style="color:darkorange">Hello! You are about to pay <span
-            style="border-radius: 5px; background-color: black; color:#88ff00; font-size: 32px;">
-            NGN{{payment.amount}}</span> for your chosen Coure <span style="border-radius: 5px; background-color: black; color:#88ff00; font-size: 32px;">"{{payment.course_name}}"</span> </h2>
-                <h4 style="font-size: 15px;">Please wait for your ID Number after your payment, do not terminate the process.</h4>
+        <h2 class="display-6" style="color:darkorange; font-size: 16px; ">Hello! You are about to pay <span
+            style="border-radius: 5px; background-color: black; color:#88ff00; font-size: 28px;">
+            NGN{{payment.amount}}</span> for your chosen Coure <span style="border-radius: 5px; background-color: black; color:#88ff00; font-size: 28px;">"{{payment.course_name}}"</span> </h2>
+                <h4 style="font-size: 15px;">Please wait for your ID Number after your successful payment, do not terminate the process.</h4>
         <br></br>
         <script src="https://js.paystack.co/v1/inline.js"></script>
         <button onClick="payWithPaystack()" id="django-paystack-button" class="btn btn-danger">Continue to complete your
