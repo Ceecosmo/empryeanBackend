@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-5=e!pb(wgr-_!n_e+wd8njdinp!z7huy#88*^w))-ys%hsm4jq'
+SECRET_KEY = '999'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -148,7 +148,7 @@ CORS_ORIGIN_WHITELIST = ['https://primeafricatechnologies.com.ng',
     #add other origins as needed
 ]
 
-PAYSTACK_SECRET_KEY = "sk_live_1f45a95418e394a2730343d7374558eb04424193"
+PAYSTACK_SECRET_KEY = "999"
 PAYSTACK_PUBLIC_KEY = "pk_live_a3ac960ad90dc9cf53fd26863305e08337b33eee"
 
 
